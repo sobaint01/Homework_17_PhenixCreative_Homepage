@@ -6,6 +6,7 @@
     align-items: center;
     box-sizing: border-box;
     box-shadow: 4px 4px 8px #000000;
+    z-index: 10;
     }
     
     nav h1 { color: #D9B344; 
@@ -106,7 +107,7 @@
     background-color: #262626;
      }
     
-    .instagram { display: flex;
+     .instagram { display: flex;
         height: 25px;
         width: 25px;
         /**outline: 2px solid #363333;**/
@@ -115,7 +116,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 15px;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.3s; 
+    }
+    
+    .instagram:hover { 
+        background-image: url("../images/instagram\ color.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 15px;
+        cursor: pointer; 
+     }
+    
     
     .linkedIn { display: flex;
         height: 25px;
@@ -126,7 +139,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 15px; 
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.3s;
+     }
+    
+    .linkedIn:hover { 
+        background-image: url("../images/Linking\ color.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 15px;
+        cursor: pointer;
+     }
     
     .gitHub { display: flex;
         height: 25px;
@@ -137,7 +161,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 15px;
-    cursor: pointer;   }
+    cursor: pointer;
+    transition: 0.3s;
+    }
+    
+    .gitHub:hover { 
+        background-image: url("../images/github\ color.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 15px;
+        cursor: pointer;
+     }
     
     .email { display: flex;
         height: 25px;
@@ -148,7 +183,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 15px;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 0.3s;
+     }
+    
+    .email:hover { 
+        background-image: url("../images/Email\ color.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 15px;
+        cursor: pointer;
+    }
+    
     
     body { background-color: #262626; }
     
