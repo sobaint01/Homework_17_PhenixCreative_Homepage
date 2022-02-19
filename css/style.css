@@ -40,8 +40,43 @@
     transition: 0.3s;
     }
     
-    .iconsearchContainer:hover { transform: rotate(-45deg); }
+    .iconsearchContainer:hover { transform: rotate(-45deg);
+    }
     
+    .searchform {
+        border: 1px solid #FFC91B;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 200px;
+        height: 35px;
+        margin: 10px;
+        color: #D9B344;
+        text-align: center !important;
+        display: none;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    #formCloser {
+        border: 1px solid #FFC91B;
+        width: 35px;
+        height: 35px;
+        background-color: #FFC91B;
+        margin-left: 50px;
+        margin-right: 0px !important;
+        background-image: url("../images/closer.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px;
+        transition: 0.3s;
+    }
+    
+    #formCloser:hover {
+        background-color: #575757;
+        border: 1px solid #575757;
+    }
+    
+
     .sectionContents { display: flex;
         justify-content: space-evenly;
         margin: 25px;
