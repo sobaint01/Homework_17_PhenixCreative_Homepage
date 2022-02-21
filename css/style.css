@@ -53,6 +53,26 @@
         translate:initial;
         
        }
+
+        #searchIcon { height: 35px;
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            background-color: #262626;
+            width: 35px;
+            background-image: url("../images/search.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            cursor: pointer;
+            transition: 0.3s;
+            }
+    
+    
+    #searchIcon:hover { transform: rotate(-45deg);
+        translate:initial;
+        
+       }
     
     .searchform {
         outline: 2pt solid #FFC91B;
@@ -65,13 +85,14 @@
         display: none;
     }
     
+ 
     #formCloser {
         border: 1px solid #FFC91B;
         width: 35px;
         height: 35px;
         background-color: #FFC91B;
         margin-left: 50px;
-        margin-right: 0px !important;
+        margin-right: 0px;
         background-image: url("../images/closer.png");
         background-position: center;
         background-repeat: no-repeat;
