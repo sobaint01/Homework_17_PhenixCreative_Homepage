@@ -27,34 +27,42 @@
     }
     
     .iconsearchContainer { height: 35px;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    background-color: #262626;
-    width: 35px;
-    background-image: url("../images/search.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-    transition: 0.3s;
-    }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+       
+        }
     
-    .iconsearchContainer:hover { transform: rotate(-45deg);
-    }
+        #searchIcon { height: 35px;
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            background-color: #262626;
+            width: 35px;
+            background-image: url("../images/search.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            cursor: pointer;
+            transition: 0.3s;
+            }
+    
+    
+    #searchIcon:hover { transform: rotate(-45deg);
+        translate:initial;
+        
+       }
     
     .searchform {
-        border: 1px solid #FFC91B;
+        outline: 2pt solid #FFC91B;
         margin-left: 0px;
-        margin-right: 0px;
         width: 200px;
         height: 35px;
         margin: 10px;
         color: #D9B344;
-        text-align: center !important;
+        text-align: center;
         display: none;
-        align-items: center;
-        justify-content: flex-end;
     }
     
     #formCloser {
