@@ -23,3 +23,7 @@ $("#formCloser").onClick ( function(){
  $("searchform").css("display","none" );
  
 });
+
+$(".burgerIcon").on("click")( function(){
+  $(".navChildburger","display","flex").slideToggle();
+ });
