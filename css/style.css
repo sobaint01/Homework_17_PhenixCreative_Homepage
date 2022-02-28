@@ -350,7 +350,7 @@ padding: 0;
      }
     
      .buttonContainer { display: flex; 
-    outline: 4px solid #D9B344;
+    outline: 2px solid #D9B344;
     height: 30px;
     width: 250px;
     padding: 15px;
